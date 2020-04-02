@@ -106,3 +106,5 @@ unsigned int loadCubemap(std::vector<std::string> faces)
 
 	return textureID;
 }
+
+/*手动阀发生得法发顺丰的算法*/
