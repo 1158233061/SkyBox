@@ -8,6 +8,9 @@
 
 #include <iostream>
 #include <vector>
+#include "Shader.h"
+#include "Camera.h"
+#include "Material.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
@@ -106,5 +109,3 @@ unsigned int loadCubemap(std::vector<std::string> faces)
 
 	return textureID;
 }
-
-/*手动阀发生得法发顺丰的算法*/
